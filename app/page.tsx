@@ -1,20 +1,17 @@
 'use client';
 import React from 'react';
-import { Breadcrumb, Carousel, Image, Layout, Menu, theme } from 'antd';
+import { Image, Layout } from 'antd';
 
-const { Header, Content, Footer } = Layout;
+const { Header } = Layout;
 
-const items = new Array(0).fill(null).map((_, index) => ({
-  key: index + 1,
-  label: `nav ${index + 1}`,
-}));
 
-const contentStyle: React.CSSProperties = {
-  height: '320px',
-  color: '#fff',
-  textAlign: 'center',
-  background: '#364d79',
-};
+
+// const contentStyle: React.CSSProperties = {
+//   height: '320px',
+//   color: '#fff',
+//   textAlign: 'center',
+//   background: '#364d79',
+// };
 const App: React.FC = () => {
 
   return (
