@@ -1,6 +1,32 @@
+
+.ae-carousel {
+    .ae-carousel-img{
+        height: 475px;
+        color: #fff;
+        text-align: center;
+        background: #364d79;
+        @media screen and (max-width: 430px){
+            height: auto;
+        }
+        .img1{
+            transform:translateY(-181px);
+            @media screen and (max-width: 430px){
+                transform:translateY(0px);
+            }
+        }
+    }
+    .ant-image{
+        width: 100%;
+        background: #fff;
+    }
+  }
+  
 .ae-content {
     width: 90%;
     margin: 30px auto;
+    @media screen and (max-width: 430px){
+        margin: 0px auto;
+    }
 
     ul {
         list-style-type: circle;

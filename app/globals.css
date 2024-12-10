@@ -24,10 +24,4 @@ body {
 .ant-layout-header{
   background: rgb(4,20,4);
 }
-.ae-carousel .ant-image{
-  width: 100%;
-}
 
-.ae-carousel .ant-image{
-  background: #fff;
-}
