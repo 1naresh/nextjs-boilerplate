@@ -27,3 +27,7 @@ body {
 .ae-carousel .ant-image{
   width: 100%;
 }
+
+.ae-carousel .ant-image{
+  background: #fff;
+}
